@@ -12,11 +12,11 @@ while (count < 10)
 {
 for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 {
-putchar(alphabet);
+	_putchar(alphabet)
 }
 count++;
-putchar('\n');
 }
+_putchar('\n');
 }
 
 
