@@ -5,7 +5,7 @@
   *
   *  * @c: contains value to be compared
  */
-nt _islower(int c)
+int _islower(int c)
 {
 if (c > 'a' && c < 'z')
 {
@@ -13,7 +13,7 @@ return (1);
 }
 else
 {
-return(0)
+return(0);
 }
 }
 
