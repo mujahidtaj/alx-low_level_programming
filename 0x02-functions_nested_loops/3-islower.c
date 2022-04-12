@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - print alphabet
  * Return: Always 0
+ * _islower - Short description, single line
  */
+
 int _islower(int c)
 {
 if (c > 'a' && c < 'z')
