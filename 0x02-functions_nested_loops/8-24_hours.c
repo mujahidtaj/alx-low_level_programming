@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * jack_bauer -prints every minute of the day
-*@n: The int to print
 * Return: Always 0.
 */
 
