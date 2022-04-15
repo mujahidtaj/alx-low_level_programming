@@ -21,6 +21,7 @@ n /= 2;
 for (i = 3; i <= sqrt(n); i = i + 2)
 {
 while (n % i == 0)
+{
 max = i;
 n = n / i;
 }
