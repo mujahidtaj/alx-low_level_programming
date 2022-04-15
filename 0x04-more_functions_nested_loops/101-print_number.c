@@ -4,7 +4,7 @@
  * print_number - prints an integer
  * @n: tracked var
  */
-void print_number(int n)
+void print_numbers(int n)
 {
 unsigned int x = n;
 if (n < 0)
