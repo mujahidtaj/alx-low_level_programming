@@ -16,7 +16,7 @@ int index = 0;
 while (src[index])
 {
 dest[index] = src[index];
-ndex++;
+index++;
 }
 return (dest);
 }
