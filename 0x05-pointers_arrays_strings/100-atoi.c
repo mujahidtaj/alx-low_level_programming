@@ -6,6 +6,10 @@
  *  @s: char array string
  *  Description: Number in the string can be preceded by an infinite
  *  eturn: first integer found in string
+ *  Return: first integer found in string
+ *  If there are no numbers in the string, return 0.
+ *   No need to check for overflow.
+ *   Not allowed to hard-code special values
  */
 int _atoi(char *s)
 {
