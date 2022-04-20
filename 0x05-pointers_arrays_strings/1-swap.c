@@ -14,3 +14,4 @@ int aux;
 aux = *a;
 *a = *b;
 *b = aux;
+}
