@@ -7,7 +7,7 @@
  *  Description: Number in the string can be preceded by an infinite
  *  eturn: first integer found in string
  */
-int _atoi(char *s
+int _atoi(char *s)
 {
 int i;
 int h, p;
