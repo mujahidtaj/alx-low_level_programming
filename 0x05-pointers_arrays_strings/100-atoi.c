@@ -28,6 +28,7 @@ break;
 }
 }
 break;
+}
 h *= -1;
 return (h);
 }
