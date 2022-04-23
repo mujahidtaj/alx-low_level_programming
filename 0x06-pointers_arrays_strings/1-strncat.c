@@ -6,19 +6,21 @@
  * @dest: The destination value
  * @src: The source value
  * @n: The limit of the concatenation
- * eturn: A pointer to the resulting string dest
+ * Return: A pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-int i, co;
+int dlen = 0, j = 0;
+while (dest[dlen])
 {
+dlen++;
 }
-for (co = 0; co < n; co++)
+while (j < n && src[j])
 {
-dest[i + co] = src[co];
-if (src[co] == '\0')
-co = n;
+dest[dlen] = src[j];
+dlen++;
+j++;
 }
+dest[dlen + n + 1] = '\0';
 return (dest);
 }
-
