@@ -26,6 +26,7 @@ dest[a] = '\0';
 a++;
 }
 return (dest);
+
 }
 
 
