@@ -13,7 +13,7 @@ int dlen = 0, j = 0;
 while (dest[dlen])
 {
 dlen++;
-{
+}
 while (j < n && src[j])
 {
 dest[dlen] = src[j];
