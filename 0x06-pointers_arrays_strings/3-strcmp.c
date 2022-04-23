@@ -18,7 +18,7 @@ while (s2[b])
 {
 b++;
 }
-f (a <= b)
+if (a <= b)
 {
 lim = a;
 }
