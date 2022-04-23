@@ -18,7 +18,7 @@ while (s2[b])
 {
 b++;
 }
-if (a <= b)
+f (a <= b)
 {
 lim = a;
 }
@@ -27,7 +27,6 @@ else
 lim = b;
 }
 while (c <= lim)
-{
 if (s1[c] == s2[c])
 {
 c++;
@@ -40,5 +39,6 @@ break;
 }
 c++;
 }
-return(r);
+return (r);
 }
+
