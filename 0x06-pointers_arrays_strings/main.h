@@ -14,3 +14,4 @@ char *cap_string(char *);
 char *cap_string(char *s);
 char *cap_string(char *n);
 char *cap_string(char *s);
+char *leet(char *s);
