@@ -6,7 +6,7 @@
  *   @s: ...
  *   Return: char value
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 int a = 0, i;
 int cspc = 13;
