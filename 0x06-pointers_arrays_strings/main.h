@@ -13,4 +13,4 @@ void print_number(int n);
 char *cap_string(char *);
 char *cap_string(char *s);
 char *cap_string(char *n);
-ar *cap_string(char *s);
+char *cap_string(char *s);
