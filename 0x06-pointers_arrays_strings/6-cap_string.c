@@ -5,28 +5,22 @@
  * cap_string - a function that capitalizes all words of a string
  * @n: input string
  * Return: caps on first letter of a separator
- */
-char *cap_string(char *n)
+*/
+char *cap_string(char *s)
 {
-int i, x;
-int cap = 32;
-int separators[] = {',', ';', '.', '?', '"',
-'(', ')', '{', '}', ' ', '\n', '\t'};
-for (i = 0; n[i] != '\0'; i++)
+int a = 0, i;
+int cspc = 13;
+char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+while (s[a])
 {
-if (n[i] >= 'a' && n[i] <= 'z')
+i = 0;
+while (i < cspc)
 {
-n[i] = n[i] - cap;
+if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+s[a] -= 32;
+i++;
 }
-cap = 0;
-for (x = 0; x <= 12; x++)
-{
-if (n[i] == separators[x])
-x = 12;
-cap = 32;
+a++;
 }
+return (s);
 }
-}
-return (n);
-}
-
