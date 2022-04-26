@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+
 /**
  * memcpy - Entry point
  * @dest: input
