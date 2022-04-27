@@ -17,6 +17,7 @@ a++;
 for (b = 0; b <= a; b++)
 {
 if (c == s[b])
+{
 s += b;
 return (s);
 }
