@@ -2,17 +2,17 @@
 
 /**
  * puts_recursion - Entry Point
- * @s: input
- *  Return: Always 0 (Success)
+ * @s: string
+ *  Return: On success 1.
+ *  On error, -1 is returned, and errno is set appropriately.
  */
 void _puts_recursion(char *s)
 {
-if (*s == '\0')
-_putchar('\n');
-else
+if (*s == 0)
 {
+_putchar('\n');
+return;
+}
 _putchar(*s);
 _puts_recursion(s + 1);
 }
-}
-
