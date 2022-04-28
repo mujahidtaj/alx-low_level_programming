@@ -6,6 +6,7 @@
  * @s: string
  * @s: string
  * On error, -1 is returned, and errno is set appropriately.
+ * Return: On success 1.
  */
 int _strlen_recursion(char *s)
 {
