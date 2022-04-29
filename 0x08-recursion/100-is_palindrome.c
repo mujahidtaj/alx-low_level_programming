@@ -7,7 +7,7 @@ int palindrome(char str[], int st, int end);
  * @s: input
  *  Return: 0
  */
-nt is_palindrome(char *s)
+int is_palindrome(char *s)
 
 {
 int len;
@@ -41,7 +41,7 @@ return (1);
 if (str[st] != str[end])
 return (0);
 if (st <= end || st < end + 1)
-eturn (palindrome(str, st + 1, end - 1));
-:return (1);
+return (palindrome(str, st + 1, end - 1));
+return (1);
 
 
