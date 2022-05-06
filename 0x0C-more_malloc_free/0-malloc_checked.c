@@ -1,8 +1,3 @@
-#include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
-
 /**
  * File: 0-malloc_checked.c
  *  Auth: Brennan D Baraban
