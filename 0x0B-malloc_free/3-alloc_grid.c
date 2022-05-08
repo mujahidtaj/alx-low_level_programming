@@ -15,6 +15,10 @@ int **ptr;
 if (width <= 0 || height <= 0)
 {
 return  (NULL);
+ptr = malloc(height * sizeof(int *));
+if (ptr == NULL)
+{
+return (NULL);
 }
 for (x = 0; x < height; x++)
 {
