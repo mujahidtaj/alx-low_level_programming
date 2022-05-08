@@ -16,7 +16,6 @@ return (a);
 }
 /**
  *  _strncat - function to concatnate strings with n bytes
- *  @s: char type
  *  @dest: destination for concatnation
  *  @n: int type for size of byte
  *  @src: source of string
