@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/** _strlen - return length of a string
+/**
+ *  _strlen - return length of a string
+ *  @s: char type 
+ * _strlen - return length of a string
  *  @s: char type
  *  Return:  length of string
  */
@@ -14,6 +17,7 @@ return (a);
 }
 /**
  *  _strncat - function to concatnate strings with n bytes
+ *  @s: char type
  *  @dest: destination for concatnation
  *  @n: int type for size of byte
  *  Return: dest
