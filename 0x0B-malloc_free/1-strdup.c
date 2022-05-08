@@ -18,6 +18,11 @@ for (a = 0; s[a] != '\0'; a++)
 {
 }
 return (a);
+/**
+ * strdup - function to return pointer to string
+ * @str: pointer to string array input
+ *  Return: pointer to string created
+ */
 }
 char *_strdup(char *str)
 {
