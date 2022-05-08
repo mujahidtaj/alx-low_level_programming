@@ -32,7 +32,7 @@ free(ptr);
 return (NULL);
 }
 for (count = 0; count < ac; count++)
-}
+{
 for (count1 = 0; av[count][count1] != '\0'; count1++)
 {
 ptr[count2] = av[count][count1];
