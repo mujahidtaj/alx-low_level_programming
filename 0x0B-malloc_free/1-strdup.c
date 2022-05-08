@@ -27,9 +27,11 @@ int size;
 int x;
 if (str == NULL)
 {
+return (NULL);
 }
 size = _strlen(str) + 1;
 ptr = malloc(size * sizeof(char));
+x = 0;
 while (x < size)
 {
 if (ptr == NULL)
