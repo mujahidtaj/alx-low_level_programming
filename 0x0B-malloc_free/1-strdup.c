@@ -35,6 +35,9 @@ while (x < size)
 if (ptr == NULL)
 {
 return (NULL);
-{
+}
+ptr[x] = str[x];
+x++;
+}
 return (ptr);
 }
