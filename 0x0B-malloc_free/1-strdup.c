@@ -3,13 +3,9 @@
 #include <stdlib.h>
 
 /**
- * _strlen - return length of a string
- * @s: char type
- * Return:  length of string
- *
- * @size: unsigned int type
- * @c: char type
- * Return: Return pointer to array created
+ *  _strlen - return length of a string
+ *  @s: char type
+ *  Return:  length of string
  */
 int _strlen(char *s)
 {
