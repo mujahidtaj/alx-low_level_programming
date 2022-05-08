@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/* _strlen - return length of a string
+/** _strlen - return length of a string
  *  @s: char type
  *  Return:  length of string
  */
@@ -46,7 +46,7 @@ s2 = "";
 }
 size1 = _strlen(s1);
 size2 = _strlen(s2);
-ptr = malloc(((size1 + size2) + 1) * sizeof(char));
+ptr = malloc(((size1 + size2)+1) *sizeof(char));
 if (ptr == NULL)
 {
 return (NULL);
