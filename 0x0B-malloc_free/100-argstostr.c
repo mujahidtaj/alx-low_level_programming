@@ -38,6 +38,9 @@ for (count1 = 0; av[count][count1] != '\0'; count1++)
 ptr[count2] = av[count][count1];
 count2++;
 }
+ptr[count2] = '\n';
+count2++;
+}
 ptr[count2] = '\0';
 return (ptr);
 }
