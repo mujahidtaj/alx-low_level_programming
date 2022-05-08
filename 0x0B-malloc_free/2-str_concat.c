@@ -19,6 +19,7 @@ return (a);
  *  @s: char type
  *  @dest: destination for concatnation
  *  @n: int type for size of byte
+ *  @src: source of string
  *  Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
