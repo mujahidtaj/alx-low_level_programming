@@ -5,8 +5,8 @@ char *_strcpy(char *x, char *y);
 
 
 /**
+ *   new_dog - makes a new dog, memory and all
  *  @name: name to create mem and assign to for dog
- *  new_dog - makes a new dog, memory and all
  *   @age: age to assign to for dog
  *   @owner: owner to create mem and assign to for dog
  *   Return: pointer to new dog_t (struct dog)
@@ -54,6 +54,7 @@ int _strlen(char *s)
 {
 int i = 0;
 for (i = 0; s[i]; i++)
+;
 return (i);
 }
 /**
