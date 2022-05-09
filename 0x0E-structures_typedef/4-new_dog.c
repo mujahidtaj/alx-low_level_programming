@@ -1,14 +1,12 @@
 #include <stdio.h>
+#include <stdio.h>
 #include "dog.h"
-#include <stdlib.h>
-
 
 /**
- * new_dog - creates a new dog
- * @name: dog's name
- * @age: dog's age
- * @owner: dog's owner
- * Return: a pointer to the structure
+ *  new_dog - creates a new dog
+ *  @name: dog's name
+ *  @age: dog's age
+ *  @owner: dog's owner
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -42,3 +40,4 @@ p->owner[k] = '\0';
 p->age = age;
 return (p);
 }
+
