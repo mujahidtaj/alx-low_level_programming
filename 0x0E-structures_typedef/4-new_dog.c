@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "dog.h"
 
 
@@ -42,4 +41,3 @@ p->owner[k] = '\0';
 p->age = age;
 return (p);
 }
-
