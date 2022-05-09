@@ -3,6 +3,7 @@
 int _strlen(char *s);
 char *_strcpy(char *x, char *y);
 
+
 /**
  *  @name: name to create mem and assign to for dog
  *  new_dog - makes a new dog, memory and all
