@@ -9,6 +9,8 @@
  * Description: this program prints opcodes in hexa
  * Return: 0 in succes
  */
+int main(int argc, char *argv[])
+{
 int i, n;
 if (argc != 2)
 {
