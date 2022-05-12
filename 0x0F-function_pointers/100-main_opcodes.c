@@ -2,29 +2,13 @@
 #include<stdlib.h>
 
 /**
-<<<<<<< HEAD
  * main- Entry point
- (* a blank line
+ * a blank line
  * @argc: the number of parameters.
  * @argv: the parameeters in the case the number ob bytes.
- * Description: this program prints opcodes in hexa)?
+ * Description: this program prints opcodes in hexa
  * Return: 0 in succes
-=======
- *  main- Entry point
-<<<<<<< HEAD
- *  a blank line
- *  @argc: the number of parameters.
-=======
-( *  a blank line
- *  a blank line
->>>>>>> f5159a7b8fb4a6cd4006df33e7b271a6bf33ca95
- *  *@argv: the parameeters in the case the number ob bytes.
- *  Description: this program prints opcodes in hexa)?
- *   Return: 0 in succes
->>>>>>> cf1fa31d8a1045d50a644910b1ced03ef5d5c2cd
  */
-int main(int argc, char *argv[])
-{
 int i, n;
 if (argc != 2)
 {
