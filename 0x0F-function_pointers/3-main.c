@@ -2,11 +2,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
 /**
- *  main - ...
- *  @argc: ...
- *  @argv: ...
- * Return: ...
+ * main - main function
+ * @argc: numero de argumentos
+ * @argc: numero de argumentos
+ * Return: result of the operation selected
  */
 int main(int argc, char *argv[])
 {
