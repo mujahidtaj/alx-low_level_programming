@@ -6,7 +6,7 @@
 /**
  * main - main function
  * @argc: numero de argumentos
- * @argc: numero de argumentos
+ *  @argv: parametros
  * Return: result of the operation selected
  */
 int main(int argc, char *argv[])
