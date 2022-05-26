@@ -1,6 +1,23 @@
 #include "main.h"
 
 /**
+ * _strlen - lenght of string
+ * @s:char
+ * Return:int
+ */
+
+int _strlen(const char *s)
+{
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		continue;
+	}
+	return (i);
+}
+
+/**
  * binary_to_uint - convert binary to unsigned int
  * @b:string from 0 and 1 else NULL
  * Return:unsigned int
